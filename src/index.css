@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  background: #ddd;
+  height: 100%;
+  display: flex;
+}
+body {
+  width: 100%;
+  margin: auto;
+  
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.button{
+  outline: none;
+  padding: 8px;
+  font-size: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.button[disabled]{
+  opacity: .3;
+}
+.file-input{
+  padding: 2px;
+  background-color: aquamarine;
+  width: 200x;
+  height: 50px;
+  font-size: 35px;
+
+}
+.flie-input.text{
+  outline: none;
+  padding: 0px 10px;
+  font-size: 15px;
+  width: 230px;
+  height: 46px;
+  background: transparent;
+  border: opx solid;
+}
+
+
+
+
+
